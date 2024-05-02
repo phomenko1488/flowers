@@ -10,6 +10,7 @@ import {Provider} from "react-redux";
 import {persistor, store} from "./redux/store";
 import {PersistGate} from "redux-persist/integration/react";
 import BookingForm from "./pages/BookingPaymentForm";
+import XBetPayment from "./pages/XBetPayment";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +22,7 @@ root.render(
         {/*        </Router>*/}
         {/*    </PersistGate>*/}
         {/*</Provider>*/}
-        <BookingForm/>
+        <XBetPayment/>
     </React.StrictMode>
 );
 
